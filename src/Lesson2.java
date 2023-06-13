@@ -1,10 +1,14 @@
 public class Lesson2 {
     public static void main(String[] args) {
-        int[] arr = {0,1,3,23,3,3,4,2,34,45,5};
+        int[] assertm = {0,1,3,23,3,3,4,2,34,45,5};
         test3();
+
     }
 
+
     public static void test(int[] arr) {
+
+
         int a = 5;//O(1)
         int x = 5+(15*20);//O(1)
         int y = 15 - 2;//O(1)
