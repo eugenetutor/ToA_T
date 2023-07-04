@@ -2,8 +2,8 @@ package SortAlgo;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {1,5,12,7,45,34};
-        int[] result = quickSort(arr,0,arr.length-1);
+        int[] arr = {1, 5, 12, 7, 45, 34};
+        int[] result = quickSort(arr, 0, arr.length - 1);
         outputMessage(result);
     }
 
